@@ -93,7 +93,7 @@ $data = mysqli_fetch_array($sql);
                     </tr>
                     <?php
                     if ($data['statustes'] == "Tidak Lulus") {
-                        echo "<br><i style='gitcolor:red'>Maaf ya andak tidak lulus.</i>";
+                        echo "<br><i style='color:red'>Maaf ya andak tidak lulus.</i>";
                     } else {
                     ?>
                         <tr>
